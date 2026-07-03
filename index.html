@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anno di prova · B016 · [Antonio D'Amore]</title>
+  <meta name="description" content="Discussione dell'anno di formazione e prova - Classe di concorso B016 Laboratori di scienze e tecnologie informatiche">
+
+  <!-- Font: JetBrains Mono per il "codice", Fraunces per il narrativo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sfondo griglia animata -->
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Navigazione fissa laterale -->
+  <nav class="side-nav" aria-label="Navigazione sezioni">
+    <ol>
+      <li><a href="#intro" data-section="intro"><span class="num">00</span><span class="label">Intro</span></a></li>
+      <li><a href="#timeline" data-section="timeline"><span class="num">01</span><span class="label">Timeline</span></a></li>
+      <li><a href="#pilastri" data-section="pilastri"><span class="num">02</span><span class="label">Pilastri</span></a></li>
+      <li><a href="#bilancio" data-section="bilancio"><span class="num">03</span><span class="label">Bilancio</span></a></li>
+      <li><a href="#peer" data-section="peer"><span class="num">04</span><span class="label">Peer to peer</span></a></li>
+      <li><a href="#formazione" data-section="formazione"><span class="num">05</span><span class="label">Formazione</span></a></li>
+      <li><a href="#chiusura" data-section="chiusura"><span class="num">06</span><span class="label">Riflessioni</span></a></li>
+    </ol>
+  </nav>
+
+  <!-- Barra di progresso scroll -->
+  <div class="scroll-progress" aria-hidden="true"><div class="bar"></div></div>
+
+  <!-- ===================== HERO / INTRO ===================== -->
+  <section id="intro" class="section section--hero">
+    <div class="hero__meta">
+      <span class="tag">// anno scolastico 2025 — 2026</span>
+      <span class="tag">// classe di concorso B016</span>
+    </div>
+
+    <h1 class="hero__title">
+      <span class="hero__line">Anno di</span>
+      <span class="hero__line hero__line--accent">formazione<span class="cursor">_</span></span>
+      <span class="hero__line">e prova.</span>
+    </h1>
+
+    <p class="hero__sub">
+      Laboratori di scienze e tecnologie informatiche &mdash; un percorso annuale tra aula, codice e crescita professionale.
+    </p>
+
+    <div class="hero__signature">
+      <div class="sig-block">
+        <span class="sig-label">docente</span>
+        <span class="sig-value">ANTONIO D'AMORE</span>
+      </div>
+      <div class="sig-block">
+        <span class="sig-label">istituto</span>
+        <span class="sig-value">I.I.S. BELLUZZI - FIORAVANTI</span>
+      </div>
+      <div class="sig-block">
+        <span class="sig-label">tutor</span>
+        <span class="sig-value">CRISTOFARO CORVINO</span>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>scorri</span>
+      <svg width="20" height="40" viewBox="0 0 20 40" fill="none"><rect x="1" y="1" width="18" height="38" rx="9" stroke="currentColor" stroke-width="1.5"/><circle class="scroll-dot" cx="10" cy="12" r="3" fill="currentColor"/></svg>
+    </div>
+  </section>
+
+  <!-- ===================== ATTIVITÀ E UDA ===================== -->
+  <section id="timeline" class="section section--timeline">
+    <header class="section-head reveal">
+      <span class="section-num">/ 01</span>
+      <h2 class="section-title">Timeline</h2>
+      <p class="section-lede">Gli step che hanno caratterizzato il mio anno di prova</p>
+    </header>
+
+    <div class="timelinee" id="timeline-list">
+      <div class="timeline__line" aria-hidden="true"></div>
+      <!-- Le UDA sono generate da script.js a partire da data.js (SITE_DATA.uda) -->
+      <noscript>
+        <p class="js-required">
+          ⚠ Questa sezione richiede JavaScript abilitato.
+          I dati delle UDA si trovano in <code>data.js</code>.
+        </p>
+      </noscript>
+    </div>
+    </section>
+
+
+
+
+  <!-- ===================== PILASTRI (anteprima narrativa) ===================== -->
+  <section id="pilastri" class="section section--pilastri">
+    <header class="section-head reveal">
+      <span class="section-num">/ 01</span>
+      <h2 class="section-title">Tre <em>pilastri</em></h2>
+      <p class="section-lede">Se dovessi raccontare quest'anno con tre momenti, sarebbero questi. Tre esperienze che si sono intrecciate e che ritroverete, in forma diversa, nelle pagine che seguono.</p>
+    </header>
+
+    <div class="pilastri-grid">
+
+      <!-- PILASTRO I — ERASMUS MALTA -->
+      <article class="pilastro pilastro--malta reveal">
+        <div class="pilastro__roman" aria-hidden="true">I</div>
+        <div class="pilastro__icon" aria-hidden="true">
+          <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+            <!-- Cerchio = isola/globo -->
+            <circle cx="30" cy="30" r="22"/>
+            <!-- Pin location -->
+            <path d="M30 18 C 25 18, 22 22, 22 27 C 22 33, 30 42, 30 42 C 30 42, 38 33, 38 27 C 38 22, 35 18, 30 18 Z"/>
+            <circle cx="30" cy="27" r="3" fill="currentColor"/>
+          </svg>
+        </div>
+        <span class="pilastro__tag">// Erasmus+ KA1 · Teacher Training</span>
+        <h3 class="pilastro__title">Una settimana<br>a <em>Malta</em>.</h3>
+        <p class="pilastro__body">Un corso intensivo in cui l'<strong>intelligenza artificiale</strong> è stata il fulcro del lavoro. Abbiamo imparato a usarla come <strong>strumento per progettare lezioni</strong> e a combinarla con due leve potenti: <strong>gamification</strong> e <strong>storytelling</strong>. Ne sono tornato convinto che la didattica tecnica funziona quando diventa esperienza.</p>
+        <ul class="pilastro__keys">
+          <li>AI per progettare lezioni</li>
+          <li>Gamification &amp; storytelling</li>
+          <li>Vocational teaching</li>
+        </ul>
+        <div class="pilastro__quote">
+          <span aria-hidden="true">"</span>
+          <p>L'AI non sostituisce l'insegnante: <em>amplifica le buone capacit&agrave;</em> che possiede.</p>
+        </div>
+      </article>
+
+      <!-- PILASTRO II — PEER TO PEER -->
+      <article class="pilastro pilastro--peer reveal">
+        <div class="pilastro__roman" aria-hidden="true">II</div>
+        <div class="pilastro__icon" aria-hidden="true">
+          <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+            <!-- Due frecce intrecciate / scambio -->
+            <path d="M12 22 L 42 22 L 36 16 M 42 22 L 36 28"/>
+            <path d="M48 38 L 18 38 L 24 32 M 18 38 L 24 44"/>
+            <circle cx="12" cy="22" r="2" fill="currentColor"/>
+            <circle cx="48" cy="38" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <span class="pilastro__tag">// 12+ ore con il tutor accogliente</span>
+        <h3 class="pilastro__title">Confronto:<br><em>Peer To Peer</em>.</h3>
+        <p class="pilastro__body">Il cuore del peer to peer è stato la <strong>co-progettazione di un'attività didattica su Linux ed il confronto continuo</strong>. Il mio tutor mi ha guidato nella <strong>strutturazione</strong>: dalla scelta dei comandi giusti per quel livello di classe, fino al ritmo da dare alla lezione e ai momenti di verifica. Un confronto operativo, sul campo.</p>
+        <ul class="pilastro__keys">
+          <li>Co-progettazione</li>
+          <li>Strutturazione della lezione</li>
+          <li>Consigli operativi</li>
+        </ul>
+        <div class="pilastro__quote">
+          <span aria-hidden="true">"</span>
+          <p>La differenza tra un esercizio e una lezione che funziona <em>sta nel ritmo</em></p>
+        </div>
+        <a href="#peer" class="pilastro__link">approfondisci la sezione →</a>
+      </article>
+
+      <!-- PILASTRO III — REFERENTE FSL -->
+      <article class="pilastro pilastro--fsl reveal">
+        <div class="pilastro__roman" aria-hidden="true">III</div>
+        <div class="pilastro__icon" aria-hidden="true">
+          <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5">
+            <!-- Nodo/rete di connessioni -->
+            <circle cx="30" cy="14" r="4"/>
+            <circle cx="14" cy="42" r="4"/>
+            <circle cx="46" cy="42" r="4"/>
+            <circle cx="30" cy="32" r="4"/>
+            <path d="M30 18 L 30 28 M 17 40 L 27 34 M 43 40 L 33 34 M 17 42 L 43 42"/>
+          </svg>
+        </div>
+        <span class="pilastro__tag">// referente per la 4ª A Informatica</span>
+        <h3 class="pilastro__title">Referente<br><em>FSL</em>.</h3>
+        <p class="pilastro__body">Come referente per la <strong>Formazione Scuola Lavoro</strong> della mia 4AI ho dialogato con <strong>realtà organizzative esterne</strong>: un terreno nuovo che ha messo alla prova — e potenziato — le mie <strong>competenze comunicative e organizzative</strong>. È qui che si è realizzata la collaborazione con i partner scolastici, uno degli standard professionali dell'anno di prova.</p>
+        <ul class="pilastro__keys">
+          <li>Dialogo con partner esterni</li>
+          <li>Competenze organizzative</li>
+          <li>Competenze comunicative</li>
+        </ul>
+        <div class="pilastro__quote">
+          <span aria-hidden="true">"</span>
+          <p>Essere referente significa <em>tradurre</em>: dalla scuola al lavoro, e ritorno.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Connettore narrativo -->
+    <div class="pilastri-connector reveal">
+      <span class="connector-line" aria-hidden="true"></span>
+      <p class="connector-text">Questi tre fili attraversano tutto il percorso. Nel resto del sito troverete <strong>come</strong> si sono tradotti in pratica didattica.</p>
+      <span class="connector-line" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- ===================== BILANCIO COMPETENZE ===================== -->
+  <section id="bilancio" class="section section--bilancio">
+    <header class="section-head reveal">
+      <span class="section-num">/ 03</span>
+      <h2 class="section-title">Bilancio delle <em>competenze</em></h2>
+      <p class="section-lede">Un confronto onesto tra il punto di partenza e quello di arrivo. <span class="muted">Le aree sono auto-valutate su una scala da 0 a 4.</span></p>
+    </header>
+
+    <div class="bilancio-grid" id="bilancio-grid">
+      <!-- Contenuto generato da script.js a partire da data.js (SITE_DATA.competenze) -->
+      <noscript>
+        <p class="js-required">
+          ⚠ Questa sezione richiede JavaScript abilitato.
+          I dati delle competenze si trovano in <code>data.js</code>.
+        </p>
+      </noscript>
+    </div>
+
+  <!--  <div class="callout reveal">
+      <span class="callout__tag">// nota di riflessione</span>
+      <p>[Sostituire con un paragrafo di riflessione personale sul percorso: dove sentivi le maggiori fragilità a settembre, cosa hai imparato a giugno, quali competenze richiedono ancora consolidamento.]</p>
+    </div>-->
+  </section>
+
+  <!-- ===================== PEER TO PEER ===================== -->
+  <section id="peer" class="section section--peer">
+    <header class="section-head reveal">
+      <span class="section-num">/ 04</span>
+      <h2 class="section-title">Peer to peer<br>&amp; <em>osservazione</em></h2>
+      <p class="section-lede">Le 12 ore di osservazione reciproca con il tutor accogliente: protocollo, evidenze, ricadute didattiche.</p>
+    </header>
+
+    <div class="peer-grid">
+
+      <article class="peer-card peer-card--osservato reveal">
+        <span class="peer-card__phase">FASE 1</span>
+        <h3>Progettazione</h3>
+        <span class="peer-card__hours">3 ore</span>
+        <p>Brainstorming con il tutor, elaborazione del calendario, scelta delle classi e progettazione delle attività per l'osservazione</p>
+      </article>
+
+      <article class="peer-card peer-card--insegna reveal">
+        <span class="peer-card__phase">FASE 2</span>
+        <h3>osservazione</h3>
+        <span class="peer-card__hours">8 ore</span>
+        <p>Fase di osservazione reciproca: 4 ore in cui il tutee osserva il tutor e 4 ore in cui accade il viceversa. Le lezioni osservate dal tutor sono 2: un'attivit&agrave; di live coding e una di sistemismo Linux</p>
+      </article>
+
+      <article class="peer-card peer-card--debrief reveal">
+        <span class="peer-card__phase">FASE 3</span>
+        <h3>Confronto e debriefing</h3>
+        <span class="peer-card__hours">1 ore</span>
+        <p>Confronto finale sull'attivit&agrave; di tutoraggio</p>
+      </article>
+
+    </div>
+
+    <div class="callout callout--alt reveal">
+      <span class="callout__tag">// ricaduta sulla pratica</span>
+      <p>Dopo l'attivit&agrave; di Peer to Peer reputo di poter apportare un approccio molto pi&ugrave; maturo alle mie lezioni, soprattutto dopo essere stato supportato da una figura con esperienza decennale nel mondo scolastico</p>
+    </div>
+
+    <!-- ============================================
+         LEZIONE LINUX — Il prodotto del peer to peer
+         ============================================ -->
+
+
+    <div class="lezione-wrapper reveal">
+
+      <!-- LIVELLO 1 — Apertura narrativa -->
+      <div class="lezione-intro">
+        <span class="lezione-intro__tag">// il prodotto del peer to peer</span>
+        <h3 class="lezione-intro__title">Una lezione su Linux, scritta come una <em style = "color: #B286E8;">saga</em>.</h3>
+        <em class="lezione-intro__title">L'archivio dei mostri di Kaer Morher </em>
+        <center><img src = "./assets/images/logo.png"></center><br>
+        <p class="lezione-intro__lede">
+          La co-progettazione con il tutor ha preso forma in <strong>un'esercitazione pratica</strong>
+          che porta in classe gli apprendimenti dell'Erasmus: <strong>storytelling + gamification</strong>
+          applicati ai comandi base di Linux. Ambientazione: <em>l'archivio di Kaer Morhen</em>,
+          dall'universo di The Witcher.
+        </p>
+        
+        <div class="lezione-meta">
+          <div class="lezione-meta__item">
+            <span class="meta-label">disciplina</span>
+            <span class="meta-value">Sistemi e Reti</span>
+          </div>
+          <div class="lezione-meta__item">
+            <span class="meta-label">classe</span>
+            <span class="meta-value">3BI · 4IT</span>
+          </div>
+          <div class="lezione-meta__item">
+            <span class="meta-label">tipologia</span>
+            <span class="meta-value">verifica pratica</span>
+          </div>
+          <div class="lezione-meta__item">
+            <span class="meta-label">approccio</span>
+            <span class="meta-value">storytelling + gamification</span>
+          </div>
+        </div>
+      </div>
+      <!-- LIVELLO 3 — PDF embedded + download -->
+      <div class="lezione-doc">
+        <div class="lezione-doc__head">
+          <div>
+            <span class="lezione-doc__tag">// documento ufficiale</span>
+            <h4 class="lezione-doc__title">La traccia completa</h4>
+            <p class="lezione-doc__desc">Il PDF integrale della verifica come è stato distribuito agli studenti.</p>
+          </div>
+          <a class="btn-download" href="assets/Esercitazione_Linux_KaerMorhen.pdf" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            <span>Scarica PDF</span>
+          </a>
+        </div>
+
+        <div class="pdf-embed">
+          <object data="assets/Esercitazione_Linux_KaerMorhen.pdf#view=FitH" type="application/pdf" width="100%" height="600">
+            <div class="pdf-fallback">
+              <p>Il tuo browser non visualizza il PDF inline.</p>
+              <p><a href="assets/Esercitazione_Linux_KaerMorhen.pdf" target="_blank" rel="noopener">Apri il PDF in una nuova scheda</a></p>
+            </div>
+          </object>
+        </div>
+      </div>
+      <!-- LIVELLO 2 — Anatomia con stepper -->
+      <div class="lezione-anatomia">
+
+        <h4 class="anatomia-title">
+          <span class="anatomia-prompt">$</span>
+          anatomia della lezione
+          <span class="cursor">_</span>
+        </h4>
+        <p class="anatomia-sub">Quattro fasi progressive. Clicca su ciascuna per vedere i comandi.</p>
+
+        <!-- Stepper -->
+        <div class="stepper" role="tablist">
+          <button class="step active" data-step="0" role="tab" aria-selected="true">
+            <span class="step__num">/ 00</span>
+            <span class="step__name">Orientamento</span>
+          </button>
+          <button class="step" data-step="1" role="tab" aria-selected="false">
+            <span class="step__num">/ 01</span>
+            <span class="step__name">Directory</span>
+          </button>
+          <button class="step" data-step="2" role="tab" aria-selected="false">
+            <span class="step__num">/ 02</span>
+            <span class="step__name">File &amp; vi</span>
+          </button>
+          <button class="step" data-step="3" role="tab" aria-selected="false">
+            <span class="step__num">/ 03</span>
+            <span class="step__name">Utenti &amp; permessi</span>
+          </button>
+        </div>
+
+        <!-- Terminale stilizzato -->
+        <div class="terminal" aria-live="polite">
+          <div class="terminal__bar">
+            <span class="terminal__dot terminal__dot--red"></span>
+            <span class="terminal__dot terminal__dot--yellow"></span>
+            <span class="terminal__dot terminal__dot--green"></span>
+            <span class="terminal__title">geralt@kaer-morhen — bash</span>
+          </div>
+
+          <div class="terminal__body">
+
+            <!-- STEP 0 -->
+            <div class="term-pane active" data-pane="0">
+              <p class="term-comment"># Parte 0 — Orientamento del sistema</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> whoami</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> uname -a</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> df -h</p>
+              <p class="term-objective">› obiettivo · interrogare lo stato del sistema (utente, kernel, disco)</p>
+            </div>
+
+            <!-- STEP 1 -->
+            <div class="term-pane" data-pane="1">
+              <p class="term-comment"># Parte 1 — Navigazione e creazione della struttura dell'archivio</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> pwd</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> ls -l</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> mkdir ~/Desktop/verificaNomeCognome</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> mkdir ~/Desktop/verificaNomeCognome/Bestiario</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> mkdir ~/Desktop/verificaNomeCognome/Witcher</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> touch ~/Desktop/Bestiario.txt ~/Desktop/Pozioni.txt ~/Desktop/Witcher.txt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> mv ~/Desktop/Witcher.txt ~/Desktop/Pozioni.txt ~/Desktop/verificaNomeCognome/Witcher/</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> mv ~/Desktop/Bestiario.txt ~/Desktop/verificaNomeCognome/Bestiario/</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> ls -lR ~/Desktop/verificaNomeCognome/</p>
+              <p class="term-objective">› obiettivo · costruire e ispezionare una gerarchia di directory e file</p>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="term-pane" data-pane="2">
+              <p class="term-comment"># Parte 2 — Editing con vi + operazioni su file</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> vi ~/Desktop/verificaNomeCognome/Witcher/Witcher.txt   <span class="term-hint"># i · Esc · :wq</span></p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> vi ~/Desktop/verificaNomeCognome/Witcher/Pozioni.txt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> vi ~/Desktop/verificaNomeCognome/Bestiario/Bestiario.txt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> cp ~/Desktop/verificaNomeCognome/Witcher/Pozioni.txt \</p>
+              <p class="term-line"><span class="prompt">   &gt;</span> ~/Desktop/verificaNomeCognome/Witcher/Pozioni_backup.txt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> diff Pozioni.txt Pozioni_backup.txt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> rm ~/Desktop/verificaNomeCognome/Witcher/Pozioni.txt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> cat ~/Desktop/verificaNomeCognome/Witcher/Witcher.txt</p>
+              <p class="term-objective">› obiettivo · editing testuale e operazioni essenziali sui file (cp · diff · rm · cat)</p>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="term-pane" data-pane="3">
+              <p class="term-comment"># Parte 3 — Utenti, gruppi e permessi</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo groupadd Witcher</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo groupadd CacciaSelvaggia</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo useradd -m Geralt   <span class="term-hint"># + sudo passwd Geralt</span></p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo useradd -m Vesemir</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo useradd -m Eredin</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo usermod -aG Witcher Geralt</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo usermod -aG Witcher Vesemir</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo usermod -aG CacciaSelvaggia Eredin</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo cp -r ~/Desktop/verificaNomeCognome/Witcher/. /home/Geralt/</p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo chmod 750 /home/Geralt/ /home/Vesemir/   <span class="term-hint"># rwxr-x---</span></p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> sudo chmod 700 /home/Eredin/   <span class="term-hint"># rwx------</span></p>
+              <p class="term-line"><span class="prompt">geralt@kaer-morhen:~$</span> ls -la /home/Geralt/ &amp;&amp; id Geralt</p>
+              <p class="term-objective">› obiettivo · governare l'accesso alle risorse condivise tra gruppi</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Tabella permessi interattiva -->
+        <div class="permessi-block">
+          <h4 class="permessi-title">
+            <span class="anatomia-prompt">$</span>
+            matrice dei permessi
+          </h4>
+          <p class="permessi-sub">L'esito atteso della Parte 3. <span class="muted">Passa il mouse sulle celle per la spiegazione.</span></p>
+
+          <div class="permessi-table-wrap">
+            <table class="permessi-table">
+              <thead>
+                <tr>
+                  <th>utente / gruppo</th>
+                  <th>file propri</th>
+                  <th>file Witcher</th>
+                  <th>file Caccia Selvaggia</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="cell-user">Geralt <span class="cell-group">(Witcher)</span></td>
+                  <td class="cell cell--full" title="Lettura, scrittura, esecuzione">rwx <span class="cell-num">7</span></td>
+                  <td class="cell cell--full" title="Lettura, scrittura, esecuzione">rwx <span class="cell-num">7</span></td>
+                  <td class="cell cell--read" title="Solo lettura">r-- <span class="cell-num">4</span></td>
+                </tr>
+                <tr>
+                  <td class="cell-user">Vesemir <span class="cell-group">(Witcher)</span></td>
+                  <td class="cell cell--full" title="Lettura, scrittura, esecuzione">rwx <span class="cell-num">7</span></td>
+                  <td class="cell cell--full" title="Lettura, scrittura, esecuzione">rwx <span class="cell-num">7</span></td>
+                  <td class="cell cell--read" title="Solo lettura">r-- <span class="cell-num">4</span></td>
+                </tr>
+                <tr>
+                  <td class="cell-user">Eredin <span class="cell-group">(Caccia Selvaggia)</span></td>
+                  <td class="cell cell--full" title="Lettura, scrittura, esecuzione">rwx <span class="cell-num">7</span></td>
+                  <td class="cell cell--none" title="Nessun permesso">--- <span class="cell-num">0</span></td>
+                  <td class="cell cell--full" title="Lettura, scrittura, esecuzione">rwx <span class="cell-num">7</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="rombo">
+        <h3 class="lezione-intro__title">Una lezione su Linux, scritta come una <em style="color:#2196F3;">saga</em>.</h3>
+        <div class="rombo__inner">
+
+          <!-- ROMBO NORD — Linux Mint -->
+          <div class="diamond diamond--n" style="--tool-color: #87CF3E;">
+            <div class="diamond__face">
+              <div class="diamond__content">
+                <img class="diamond__logo"
+                     src="https://cdn.simpleicons.org/linuxmint/87CF3E"
+                     alt="Logo Linux Mint"
+                     onerror="this.replaceWith(Object.assign(document.createElement('img'), {className:'diamond__logo-fallback', src:'./assets/images/mint.svg'}));">
+              </div>
+              <div class="diamond__hover">
+                <span class="diamond__role">sistema operativo</span>
+                <strong class="diamond__name">Linux Mint</strong>
+                <p class="diamond__desc">L'ambiente in cui gli studenti hanno svolto la verifica.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ROMBO EST — VirtualBox -->
+          <div class="diamond diamond--e" style="--tool-color: #2196F3;">
+            <div class="diamond__face">
+              <div class="diamond__content">
+                <img class="diamond__logo"
+                     src="https://cdn.simpleicons.org/virtualbox/2196F3"
+                     alt="Logo VirtualBox"
+                     onerror="this.replaceWith(Object.assign(document.createElement('img'), {className:'diamond__logo-fallback', src:'./assets/images/virtualbox.svg'}));">
+              </div>
+              <div class="diamond__hover">
+                <span class="diamond__role">virtualizzazione</span>
+                <strong class="diamond__name">VirtualBox</strong>
+                <p class="diamond__desc">Ambiente isolato per esercitarsi con permessi e <code>sudo</code> senza rischi.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ROMBO SUD — Kahoot -->
+          <div class="diamond diamond--s" style="--tool-color: #B286E8;">
+            <div class="diamond__face">
+              <div class="diamond__content">
+                <img class="diamond__logo"
+                     src="https://cdn.simpleicons.org/kahoot/B286E8"
+                     alt="Logo Kahoot"
+                     onerror="this.replaceWith(Object.assign(document.createElement('img'), {className:'diamond__logo-fallback', src:'./assets/images/kahoot.svg'}));">
+              </div>
+              <div class="diamond__hover">
+                <span class="diamond__role">gamification</span>
+                <strong class="diamond__name">Kahoot!</strong>
+                <p class="diamond__desc">Quiz finale per verificare la comprensione in modo ludico.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ROMBO OVEST — Claude -->
+          <div class="diamond diamond--w" style="--tool-color: #D97757;">
+            <div class="diamond__face">
+              <div class="diamond__content">
+                <img class="diamond__logo"
+                     src="https://cdn.simpleicons.org/claude/D97757"
+                     alt="Logo Claude"
+                     onerror="this.replaceWith(Object.assign(document.createElement('img'), {className:'diamond__logo-fallback', src:'./assets/images/claude.svg'}));">
+              </div>
+              <div class="diamond__hover">
+                <span class="diamond__role">AI didattica</span>
+                <strong class="diamond__name">Claude</strong>
+                <p class="diamond__desc">Profilo "tutor didattico" per progettazione e varianti delle attività.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FORMAZIONE ===================== -->
+  <section id="formazione" class="section section--formazione">
+    <header class="section-head reveal">
+      <span class="section-num">/ 05</span>
+      <h2 class="section-title">Formazione &amp; <em>INDIRE</em></h2>
+      <p class="section-lede">I percorsi formativi seguiti durante l'anno: piattaforma INDIRE, incontri territoriali, autoformazione.</p>
+    </header>
+
+    <div class="form-grid">
+
+      <!-- INDIRE -->
+      <article class="form-card form-card--main reveal">
+        <header>
+          <span class="form-card__cat">piattaforma</span>
+          <h3>INDIRE — Ambiente online</h3>
+        </header>
+        <ul class="form-list">
+          <li><span class="form-check">✓</span> Bilancio iniziale delle competenze</li>
+          <li><span class="form-check">✓</span> Curriculum formativo</li>
+          <li><span class="form-check">✓</span> Patto per lo sviluppo professionale</li>
+          <li><span class="form-check">✓</span> Attività didattiche documentate </li>
+          <li><span class="form-check">✓</span> Attività per il curriculum </li>
+          <li><span class="form-check">✓</span> Laboratorio di formazione </li>
+          <li><span class="form-check">✓</span> Questionario sull'esperienza formativa</li>
+          <li><span class="form-check">✓</span> Bilancio finale e bisogni formativi futuri</li>
+        </ul>
+      </article>
+
+      <!-- INCONTRI -->
+      <article class="form-card reveal">
+        <header>
+          <span class="form-card__cat">in presenza</span>
+          <h3>Incontri territoriali</h3>
+        </header>
+        <p>2 incontri con le scuole polo</p>
+        <ul class="form-list form-list--compact">
+          <li>· Incontro iniziale</li>
+          <li>· Incontro di restituzione finale</li>
+        </ul>
+      </article>
+
+      <!-- AUTOFORMAZIONE -->
+      <article class="form-card reveal">
+        <header>
+          <span class="form-card__cat">autoformazione</span>
+          <h3>Approfondimenti personali</h3>
+        </header>
+        <p>Corso di formazione</p>
+        <ul class="chips">
+          <li>MOOC su Cybersicurezza di base</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== CHIUSURA / RIFLESSIONI ===================== -->
+  <section id="chiusura" class="section section--chiusura">
+    <header class="section-head reveal">
+      <span class="section-num">/ 06</span>
+      <h2 class="section-title">Riflessioni <em>finali</em></h2>
+    </header>
+
+    <div class="chiusura-content reveal">
+      <blockquote class="big-quote">
+        <p>«Nessun vento è favorevole per il marinaio che non sa a quale porto vuol approdare»</p>
+        <p style = "text-align: right;">Seneca</p>
+      </blockquote>
+
+      <div class="chiusura-cols">
+        <div class="chiusura-col">
+          <h4 class="col-title">// cosa porto a casa</h4>
+          <p>- metodologie didattiche innovative;
+             <br>- partecipazione attiva, specialmente per alunni con stili di apprendimento diversi.
+            <br>- progettazione di unità di apprendimento, ponendo al centro l’inclusione</p>
+        </div>
+        <div class="chiusura-col">
+          <h4 class="col-title">// cosa voglio sviluppare</h4>
+          <p>- tecnologie della didattica digitale e loro integrazione nel curricolo
+            <br>- bisogni educativi speciali</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer__line"></div>
+      <div class="footer__content">
+        <span>// fine del documento</span>
+        <span>ANTONIO D'AMORE · A.S. 2025-2026 · B016</span>
+      </div>
+    </footer>
+  </section>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
